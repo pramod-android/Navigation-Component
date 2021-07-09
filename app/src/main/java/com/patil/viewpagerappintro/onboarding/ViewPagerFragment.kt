@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.adapters.AdapterViewBindingAdapter
+import com.google.android.material.tabs.TabLayoutMediator
 import com.patil.milumart.R
 import com.patil.milumart.databinding.FragmentViewPagerBinding
 import kotlinx.android.synthetic.main.fragment_view_pager.*
@@ -29,8 +30,10 @@ class ViewPagerFragment : Fragment() {
             ThirdScreenFragment(),
             FourthScreenFragment()
         )
+
         val adapter = ViewPagerAdapter(fragmentList,requireActivity().supportFragmentManager,lifecycle)
         view.viewPager.adapter = adapter
+        view.dots_indicator.setViewPager2(view.viewPager)
         return view
     }
 
