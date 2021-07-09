@@ -1,4 +1,4 @@
-package com.patil.milumart
+package com.patil.viewpagerappintro
 
 import org.junit.Test
 

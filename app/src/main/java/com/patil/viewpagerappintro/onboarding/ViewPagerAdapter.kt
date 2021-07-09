@@ -1,4 +1,4 @@
-package com.patil.milumart.onboarding
+package com.patil.viewpagerappintro.onboarding
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

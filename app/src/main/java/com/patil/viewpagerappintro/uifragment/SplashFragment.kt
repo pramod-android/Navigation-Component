@@ -1,4 +1,4 @@
-package com.patil.milumart.uifragment
+package com.patil.viewpagerappintro.uifragment
 
 import android.content.Context
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.patil.milumart.R
+import com.patil.viewpagerappintro.R
 
 class SplashFragment : Fragment() {
     override fun onCreateView(

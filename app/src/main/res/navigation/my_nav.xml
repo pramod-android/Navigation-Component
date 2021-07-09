@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.patil.milumart.uifragment.SplashFragment"
+        android:name="com.patil.viewpagerappintro.uifragment.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -24,7 +24,7 @@
     </fragment>
     <fragment
         android:id="@+id/viewPagerFragment"
-        android:name="com.patil.milumart.onboarding.ViewPagerFragment"
+        android:name="com.patil.viewpagerappintro.onboarding.ViewPagerFragment"
         android:label="ViewPagerFragment" >
         <action
             android:id="@+id/action_viewPagerFragment_to_loginFragment"
@@ -35,7 +35,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.patil.milumart.uifragment.LoginFragment"
+        android:name="com.patil.viewpagerappintro.uifragment.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
 </navigation>

@@ -1,8 +1,8 @@
-package com.patil.milumart.uiactivity
+package com.patil.viewpagerappintro.uiactivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.patil.milumart.R
+import com.patil.viewpagerappintro.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

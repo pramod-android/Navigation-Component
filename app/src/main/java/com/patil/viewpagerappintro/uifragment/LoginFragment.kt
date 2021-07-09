@@ -1,11 +1,11 @@
-package com.patil.milumart.uifragment
+package com.patil.viewpagerappintro.uifragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.patil.milumart.R
+import com.patil.viewpagerappintro.R
 
 
 class LoginFragment : Fragment() {
